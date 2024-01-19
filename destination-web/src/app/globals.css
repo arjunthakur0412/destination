@@ -2,13 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
-
-/* Apply Tailwind CSS styles or any custom styles here */
 .oxanium-font {
-	font-family: 'Oxanium', cursive;
-	/* Add more custom styles as needed */
+	font-family: var(--font-oxanium);
 }
 
 * {

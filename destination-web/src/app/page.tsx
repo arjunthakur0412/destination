@@ -6,6 +6,7 @@ import Banner from 'components/hero-section';
 import HowItWorks from 'components/how-it-works';
 import ImageCarousel from 'components/image-carousel';
 import Navbar from 'components/navbar';
+import Partners from 'components/partners';
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<BestService />
 			<CardSection />
 			<CardSectionCarousel />
+			<Partners />
 			<Footer />
 		</>
 	);

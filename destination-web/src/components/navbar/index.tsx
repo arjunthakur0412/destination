@@ -1,10 +1,14 @@
 'use client';
 import CustomButton from 'components/common/CustomButton';
 import { vehicleImages } from 'services/constants';
+import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
+	const router = useRouter();
+
 	const handleOnClick = () => {
 		console.log('clicked');
+		router.push('/enquire');
 	};
 	return (
 		<>
